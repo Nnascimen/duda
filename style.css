@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Poppins;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d2d70;
+    flex-direction: column;
+}
+
+#ativa {
+    padding: 10px 20px;
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+}
+
+.fa-heart {
+    margin-left: 8px;
+    transition: color 0.3s ease;
+}
+
+.ativo {
+    color: #ff0000; /* Coração vermelho quando ativo */
+}
+img{
+    display: none;
+}
+
+#a, #b, #c, #d, #e{
+    position: absolute;
+}
+
+#a{
+    top: 2rem;
+    left: 0px;
+}
+#b{
+    top: 2rem;
+    right: 2px;
+}
+#c{
+    top: 12rem;
+    height: 150px;
+}
+#d{
+    left: 0rem;
+    bottom: 0rem;
+    height: 250px;
+}
+
+#e{
+    right: 0rem;
+    height: 230px;
+    bottom: 0px;
+}
+
+h2, p{
+    color: aliceblue;
+}
+p{
+    margin-bottom: 8rem;
+}
